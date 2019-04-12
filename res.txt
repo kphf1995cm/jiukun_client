@@ -1,0 +1,76 @@
+--------------GetTrader-----------------------
+timestamp: 2217.1878159046173
+account {
+  is_alive: true
+  total_cash: 99996.05988199999
+  unrealized_pnl: -24.819999999998288
+  occupied_cash: 7849.6
+  commission: 3.940118
+}
+positions {
+  long_positions {
+    key: "A001.PSE"
+    value {
+      volume: 100
+      occupied_cash: 1973.6000000000001
+      avg_price: 98.991
+      unrealized_pnl: -31.099999999999284
+    }
+  }
+  long_positions {
+    key: "A002.PSE"
+    value {
+      volume: 100
+      occupied_cash: 1951.2
+      avg_price: 98.13899999999998
+      unrealized_pnl: -57.89999999999793
+    }
+  }
+  short_positions {
+    key: "A001.PSE"
+    value {
+      volume: 100
+      occupied_cash: 1973.6000000000001
+      avg_price: 98.7816
+      unrealized_pnl: 10.159999999999059
+    }
+  }
+  short_positions {
+    key: "A002.PSE"
+    value {
+      volume: 100
+      occupied_cash: 1951.2
+      avg_price: 98.1002
+      unrealized_pnl: 54.01999999999987
+    }
+  }
+}
+market_records {
+  symbol: "B002.PSE"
+}
+market_records {
+  symbol: "B001.PSE"
+}
+market_records {
+  symbol: "A002.PSE"
+}
+market_records {
+  symbol: "A001.PSE"
+}
+market_records {
+  symbol: "all"
+}
+volume_records {
+  symbol: "all"
+  volume: 400
+}
+volume_records {
+  symbol: "A002.PSE"
+  volume: 200
+}
+volume_records {
+  symbol: "A001.PSE"
+  volume: 200
+}
+
+----------------------------------------------
